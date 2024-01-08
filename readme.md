@@ -4,8 +4,17 @@
 - 다운받은 사진의 경우, "🐳" 리엑션을 단 다.
 
 ## 설치
+```sh
+pip install -r requirements.txt
+python src/main.py
+```
+
+## 기타 메모
 ```py
 python3.12 -m venv .venv
 . .venv/bin/activate
-pip install python-telegram-bot --upgrade
+# pip install python-telegram-bot --upgrade
+pip install
+pip freeze > requirements.txt
+python src/main.py
 ```
