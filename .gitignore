@@ -1,0 +1,7 @@
+token.txt
+/pw/
+*.log
+*.db
+/data/
+.venv
+__pycache__
